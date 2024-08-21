@@ -2,37 +2,54 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of an Intrusion Detection System (IDS)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To monitor and analyze network traffic for suspicious activity",
+        "b": "To block all incoming network traffic",
+        "c": "To encrypt data transmissions",
+        "d": "To create network firewalls"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "An IDS is designed to monitor and analyze network traffic for suspicious activity, such as potential security threats. More details <a href='https://www.example.com/IDS-introduction'>here</a>.",
+        "b": "Incorrect. IDSs are typically passive and do not block traffic.",
+        "c": "Incorrect. Encryption is not the primary function of an IDS.",
+        "d": "Incorrect. IDSs do not create firewalls, although they may work alongside them."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following best describes a brute force attack?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A type of malware that deletes files",
+        "b": "A method of repeatedly trying different username and password combinations to gain access",
+        "c": "An attack that floods a network with traffic to cause a denial of service",
+        "d": "A phishing attempt to steal credentials"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Brute force attacks do not involve malware that deletes files.",
+        "b": "Correct. Brute force attacks involve trying various combinations of usernames and passwords until the correct one is found. Learn more <a href='https://www.example.com/brute-force'>here</a>.",
+        "c": "Incorrect. This describes a Distributed Denial of Service (DDoS) attack.",
+        "d": "Incorrect. This describes phishing, not brute force."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does Snort identify a potential SSH brute force attack?",
+      "answers": {
+        "a": "By detecting multiple failed login attempts in a short period",
+        "b": "By monitoring file changes on the server",
+        "c": "By scanning for malware signatures",
+        "d": "By blocking all SSH traffic"
+      },
+      "explanations": {
+        "a": "Correct. Snort uses predefined rules to detect patterns such as multiple failed login attempts that are indicative of brute force attacks. More information can be found <a href='https://www.example.com/snort-rules'>here</a>.",
+        "b": "Incorrect. Snort does not monitor file changes directly.",
+        "c": "Incorrect. Snort does not focus on malware scanning; it is a network traffic analyzer.",
+        "d": "Incorrect. Snort does not block traffic but alerts on suspicious patterns."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]

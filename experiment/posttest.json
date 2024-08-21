@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "During the simulation, how did you identify an SSH brute force attack?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "By recognizing multiple failed login attempts from various IP addresses within a short time frame",
+        "b": "By noticing a sudden drop in network traffic",
+        "c": "By observing unusual file changes on the server",
+        "d": "By detecting encrypted packets in the network"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. SSH brute force attacks are identified by a high number of failed login attempts from different IP addresses within a short period. More details <a href='https://www.example.com/ssh-brute-force'>here</a>.",
+        "b": "Incorrect. A sudden drop in traffic is not typically associated with brute force attacks.",
+        "c": "Incorrect. File changes are not a direct indicator of SSH brute force attacks.",
+        "d": "Incorrect. Encrypted packets are not a specific indicator of brute force attacks."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What role did Snort play in detecting malicious activity during the lab exercise?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Snort generated alerts and logged suspicious traffic patterns",
+        "b": "Snort blocked all incoming network traffic",
+        "c": "Snort encrypted all network communications",
+        "d": "Snort performed regular system backups"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. Snort's role was to generate alerts and log traffic patterns indicative of malicious activity, such as SSH brute force attacks. Learn more <a href='https://www.example.com/snort-roles'>here</a>.",
+        "b": "Incorrect. Snort does not block traffic; it only monitors and alerts.",
+        "c": "Incorrect. Snort does not handle encryption.",
+        "d": "Incorrect. Snort is not responsible for system backups."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What key feature of Snort allows it to detect patterns such as SSH brute force attacks?",
+      "answers": {
+        "a": "Signature-based rules",
+        "b": "Packet filtering",
+        "c": "System resource monitoring",
+        "d": "User authentication"
+      },
+      "explanations": {
+        "a": "Correct. Snort uses signature-based rules to detect specific patterns of network traffic that match known attack signatures, including those for SSH brute force attacks. More information <a href='https://www.example.com/snort-signatures'>here</a>.",
+        "b": "Incorrect. Snort is not primarily a packet filtering tool.",
+        "c": "Incorrect. Snort does not monitor system resources.",
+        "d": "Incorrect. Snort is not involved in user authentication."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     }
   ]
 }
