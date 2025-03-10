@@ -1,4 +1,4 @@
 <h2>Aim of the Experiment</h2>
 <p>
-The aim of this experiment is to provide hands-on experience in intrusion detection by analyzing network logs to differentiate between benign network traffic and malicious activity. Specifically, users will observe real-time network traffic, identify SSH brute force attacks hidden within normal traffic, and take appropriate measures to investigate and respond to security threats effectively.
+The aim of this experiment is to analyze and detect malicious network traffic by examining network logs for potential security threats. Users will gain hands-on experience in identifying and differentiating between normal and malicious activity, with a specific focus on detecting SSH brute force attacks hidden within regular traffic and take appropriate measures to investigate and respond to security threats effectively.
 </p>

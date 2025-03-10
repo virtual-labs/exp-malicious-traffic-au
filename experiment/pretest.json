@@ -2,57 +2,6 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is SSH commonly used for in network security?",
-      "answers": {
-        "a": "To securely access remote systems",
-        "b": "To transfer large files anonymously",
-        "c": "To create firewalls",
-        "d": "To detect network intrusions"
-      },
-      "explanations": {
-        "a": "Correct. SSH (Secure Shell) is used to securely access remote systems over an encrypted connection. More details <a href='https://www.example.com/ssh-introduction'>here</a>.",
-        "b": "Incorrect. SSH is not primarily used for anonymous file transfers.",
-        "c": "Incorrect. Firewalls are created using other network security tools, not SSH.",
-        "d": "Incorrect. SSH is not an intrusion detection system."
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is a key sign of a brute force attack in an SSH server log?",
-      "answers": {
-        "a": "Multiple failed login attempts from the same or different IPs",
-        "b": "Unusual CPU temperature spikes",
-        "c": "A single successful login from an authorized user",
-        "d": "A sudden increase in network bandwidth usage"
-      },
-      "explanations": {
-        "a": "Correct. A high number of failed login attempts in a short time is a key indicator of a brute force attack. More details <a href='https://www.example.com/ssh-brute-force-signs'>here</a>.",
-        "b": "Incorrect. While excessive CPU usage can be a symptom of an attack, it is not a direct indicator of SSH brute force.",
-        "c": "Incorrect. A single successful login does not indicate a brute force attack.",
-        "d": "Incorrect. A brute force attack does not always result in a sudden increase in network bandwidth usage."
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Why is it important to monitor failed SSH login attempts?",
-      "answers": {
-        "a": "To detect potential unauthorized access attempts",
-        "b": "To prevent legitimate users from logging in",
-        "c": "To automatically shut down the server when failed attempts occur",
-        "d": "To ensure users type their passwords correctly"
-      },
-      "explanations": {
-        "a": "Correct. Monitoring failed SSH login attempts helps detect brute force attacks and unauthorized access. More information <a href='https://www.example.com/monitoring-ssh'>here</a>.",
-        "b": "Incorrect. Monitoring login attempts does not prevent legitimate users from accessing the system.",
-        "c": "Incorrect. Failed login attempts should be analyzed, but they do not automatically shut down the server.",
-        "d": "Incorrect. While incorrect passwords lead to failed attempts, monitoring them is primarily for security, not for user accuracy."
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
       "question": "What is the primary purpose of an Intrusion Detection System (IDS)?",
       "answers": {
         "a": "To monitor and analyze network traffic for suspicious activity",
