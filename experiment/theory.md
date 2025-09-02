@@ -1,4 +1,4 @@
-<h2>Theory</h2>
+<h3>Theory</h3>
 <p><b>Intrusion Detection System (IDS)</b></p>
 <p> A framework designed to monitor network traffic for suspicious activity and known threats, alerting system administrators to potential security breaches.</p>
 <p><b>Working of Intrusion Detection System(IDS)</b></p>
