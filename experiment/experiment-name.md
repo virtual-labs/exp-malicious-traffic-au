@@ -1,2 +1,1 @@
-
 <h2>Malicious Traffic</h2>
