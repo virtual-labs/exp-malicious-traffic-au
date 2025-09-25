@@ -2,38 +2,106 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of an Intrusion Detection System (IDS)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To monitor and analyze network traffic for suspicious activity",
+        "b": "To block all incoming network traffic",
+        "c": "To encrypt data transmissions",
+        "d": "To create network firewalls"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. IDS is designed to monitor and analyze network traffic for suspicious activity and known threats.",
+        "b": "Incorrect. IDSs are usually passive and do not block traffic.",
+        "c": "Incorrect. IDS does not perform encryption.",
+        "d": "Incorrect. IDSs do not create firewalls, though they can complement them."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "How does an IDS detect suspicious activity?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "By analyzing patterns in network traffic and comparing them with predefined rules",
+        "b": "By physically disconnecting suspicious devices",
+        "c": "By automatically encrypting malicious traffic",
+        "d": "By replacing firewalls"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. IDS analyzes traffic patterns and matches them against predefined signatures or rules.",
+        "b": "Incorrect. IDS does not physically disconnect devices.",
+        "c": "Incorrect. IDS does not encrypt traffic.",
+        "d": "Incorrect. Firewalls and IDS are separate security tools."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+    {
+      "question": "When an IDS detects suspicious activity, what does it typically do?",
+      "answers": {
+        "a": "Blocks all network traffic immediately",
+        "b": "Sends an alert to the system administrator",
+        "c": "Deletes malicious files from the server",
+        "d": "Reboots the system"
+      },
+      "explanations": {
+        "a": "Incorrect. Blocking traffic is usually the role of an IPS (Intrusion Prevention System).",
+        "b": "Correct. IDS alerts administrators so they can take action.",
+        "c": "Incorrect. IDS does not remove files directly.",
+        "d": "Incorrect. IDS does not reboot systems."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does pattern recognition in network security involve?",
+      "answers": {
+        "a": "Recognizing normal traffic patterns and detecting abnormal or malicious ones",
+        "b": "Encrypting every network packet",
+        "c": "Installing antivirus software",
+        "d": "Changing IP addresses regularly"
+      },
+      "explanations": {
+        "a": "Correct. Pattern recognition helps differentiate normal traffic (e.g., DNS queries) from suspicious activity (e.g., repeated failed logins).",
+        "b": "Incorrect. Pattern recognition does not involve encryption.",
+        "c": "Incorrect. Antivirus is separate from IDS pattern recognition.",
+        "d": "Incorrect. IP address rotation is unrelated to IDS pattern recognition."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What detection approach does Snort primarily use?",
+      "answers": {
+        "a": "Signature-based detection",
+        "b": "Heuristic analysis",
+        "c": "AI-based anomaly detection",
+        "d": "Hardware-level monitoring"
+      },
+      "explanations": {
+        "a": "Correct. Snort primarily uses signature-based detection with predefined rules.",
+        "b": "Incorrect. Snort does not mainly use heuristic analysis.",
+        "c": "Incorrect. Snort is not AI-driven.",
+        "d": "Incorrect. Snort works on network traffic, not hardware monitoring."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens when Snort detects traffic that matches one of its rules?",
+      "answers": {
+        "a": "It generates alerts and logs details about the incident",
+        "b": "It blocks all incoming traffic",
+        "c": "It deletes suspicious files automatically",
+        "d": "It reconfigures the network firewall"
+      },
+      "explanations": {
+        "a": "Correct. Snort generates alerts and logs when traffic matches its rules.",
+        "b": "Incorrect. Blocking is a function of an IPS, not IDS.",
+        "c": "Incorrect. Snort does not delete files.",
+        "d": "Incorrect. Snort does not modify firewall settings automatically."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     }
   ]
 }
