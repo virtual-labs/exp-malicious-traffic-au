@@ -1,4 +1,4 @@
-<h3>References</h3>
+
 <ol>
   <li>
     F. Rustam, et al., “Malicious traffic detection in multi-environment networks,” <em>Computers & Security</em>, vol. 120, 102886, 2024. 

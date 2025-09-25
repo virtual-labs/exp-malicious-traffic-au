@@ -1,4 +1,4 @@
-### Procedure
+
 <p><b>Step 1: Observe the Real-Time Traffic View</b></p>
  <img src="images/step1.png" alt="step1">
  <p><b>Step 2: Identifying Normal Traffic</b></p>
