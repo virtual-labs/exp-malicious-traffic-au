@@ -1,1 +1,1 @@
-<h2>Malicious Traffic</h2>
+<h2>Malicious Traffic Detection via Log Analysis</h2>
