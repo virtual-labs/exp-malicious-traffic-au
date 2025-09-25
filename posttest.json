@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "During the simulation, how did you identify an SSH brute force attack?",
+      "answers": {
+        "a": "By recognizing multiple failed login attempts from various IP addresses within a short time frame",
+        "b": "By noticing a sudden drop in network traffic",
+        "c": "By observing unusual file changes on the server",
+        "d": "By detecting encrypted packets in the network"
+      },
+      "explanations": {
+        "a": "Correct. SSH brute force attacks are identified by a high number of failed login attempts from different IP addresses within a short period. More details <a href='https://www.example.com/ssh-brute-force'>here</a>.",
+        "b": "Incorrect. A sudden drop in traffic is not typically associated with brute force attacks.",
+        "c": "Incorrect. File changes are not a direct indicator of SSH brute force attacks.",
+        "d": "Incorrect. Encrypted packets are not a specific indicator of brute force attacks."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What role did Snort play in detecting malicious activity during the lab exercise?",
+      "answers": {
+        "a": "Snort generated alerts and logged suspicious traffic patterns",
+        "b": "Snort blocked all incoming network traffic",
+        "c": "Snort encrypted all network communications",
+        "d": "Snort performed regular system backups"
+      },
+      "explanations": {
+        "a": "Correct. Snort's role was to generate alerts and log traffic patterns indicative of malicious activity, such as SSH brute force attacks. Learn more <a href='https://www.example.com/snort-roles'>here</a>.",
+        "b": "Incorrect. Snort does not block traffic; it only monitors and alerts.",
+        "c": "Incorrect. Snort does not handle encryption.",
+        "d": "Incorrect. Snort is not responsible for system backups."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What key feature of Snort allows it to detect patterns such as SSH brute force attacks?",
+      "answers": {
+        "a": "Signature-based rules",
+        "b": "Packet filtering",
+        "c": "System resource monitoring",
+        "d": "User authentication"
+      },
+      "explanations": {
+        "a": "Correct. Snort uses signature-based rules to detect specific patterns of network traffic that match known attack signatures, including those for SSH brute force attacks. More information <a href='https://www.example.com/snort-signatures'>here</a>.",
+        "b": "Incorrect. Snort is not primarily a packet filtering tool.",
+        "c": "Incorrect. Snort does not monitor system resources.",
+        "d": "Incorrect. Snort is not involved in user authentication."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is a common indicator of an SSH brute force attack?",
+      "answers": {
+        "a": "Multiple failed login attempts from a single or multiple IP addresses",
+        "b": "A sudden increase in legitimate SSH logins",
+        "c": "A network experiencing high latency",
+        "d": "Unusual activity in the HTTP request logs"
+      },
+      "explanations": {
+        "a": "Correct. SSH brute force attacks often involve multiple failed login attempts over a short time, sometimes from different IP addresses. Learn more <a href='https://www.example.com/ssh-indicators'>here</a>.",
+        "b": "Incorrect. An increase in legitimate SSH logins does not indicate an attack.",
+        "c": "Incorrect. High latency can result from various factors unrelated to brute force attacks.",
+        "d": "Incorrect. SSH attacks do not typically affect HTTP request logs."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What action should be taken after detecting an SSH brute force attack?",
+      "answers": {
+        "a": "Block the attacking IP address and enforce SSH access restrictions",
+        "b": "Restart the server immediately",
+        "c": "Ignore the attack if no login was successful",
+        "d": "Disable SSH access completely"
+      },
+      "explanations": {
+        "a": "Correct. Blocking the IP address and enforcing SSH security measures can help mitigate brute force attacks. More details <a href='https://www.example.com/ssh-mitigation'>here</a>.",
+        "b": "Incorrect. Restarting the server does not prevent future brute force attacks.",
+        "c": "Incorrect. Even if no login was successful, ignoring the attack could lead to further security risks.",
+        "d": "Incorrect. Disabling SSH access completely may not be practical in most environments."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following security best practices helps prevent SSH brute force attacks?",
+      "answers": {
+        "a": "Using key-based authentication instead of password authentication",
+        "b": "Running SSH on default port 22",
+        "c": "Allowing SSH access from all IP addresses",
+        "d": "Disabling firewall rules to reduce network restrictions"
+      },
+      "explanations": {
+        "a": "Correct. Key-based authentication is more secure and prevents brute force attacks targeting passwords. More details <a href='https://www.example.com/ssh-security'>here</a>.",
+        "b": "Incorrect. Running SSH on the default port makes it more susceptible to attacks.",
+        "c": "Incorrect. Allowing SSH access from all IPs increases exposure to attacks.",
+        "d": "Incorrect. Disabling firewall rules weakens network security."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}
